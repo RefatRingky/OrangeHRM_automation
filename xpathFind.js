@@ -15,8 +15,10 @@ async function run() {
     await driver.findElement(By.xpath("//div[@title='Product Management & Design']")).click();
     await driver.findElement(By.xpath("//div[@title='Web & App Development']")).click();
     await driver.findElement(By.xpath("//div[@title='Business & Marketing']")).click();
+    // await driver.findElement(By.xpath("button[@id='nav_btn_login']"));
+    // await driver.findElement(By.xpath("//div[text()='Product Management & Design']")).click();
     
-
+// tag[@attribute='attribute value']
     
 }
 

@@ -13,6 +13,16 @@
     "selenium-webdriver": "^4.39.0"
   },
   "keywords": [],
+  "devDependencies": {
+    "chai": "^6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RefatRingky/OrangeHRM_automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RefatRingky/OrangeHRM_automation/issues"
+  },
+  "homepage": "https://github.com/RefatRingky/OrangeHRM_automation#readme",
   "description": ""
-
 }
