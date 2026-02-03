@@ -4,17 +4,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "test": "mocha tests --timeout 60000",
+  "allure:report": "allure generate allure-results --clean -o allure-report",
+  "allure:open": "allure open allure-report"
+},
+
   "author": "Ringky",
   "license": "ISC",
-  "dependencies": {
-    "chromedriver": "^143.0.4",
-    "selenium-webdriver": "^4.39.0"
-  },
   "keywords": [],
   "devDependencies": {
-    "chai": "^6.2.2"
+    "allure-mocha": "^3.4.5",
+    "chai": "^6.2.2",
+    "chromedriver": "^145.0.0",
+    "mocha": "^11.7.5",
+    "selenium-webdriver": "^4.40.0"
   },
   "repository": {
     "type": "git",
