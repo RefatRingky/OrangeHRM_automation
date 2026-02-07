@@ -95,7 +95,7 @@ await driver.wait(
     const successMsg = await driver.findElement(By.className('complete-header')).getText();
     assert.strictEqual(successMsg, 'Thank you for your order!');
 
-    console.log('✅ Order placed successfully');
+    console.log(' Order placed successfully');
 
     // ------------------ RESET AGAIN & LOGOUT ------------------
     await openMenu(driver);
@@ -110,11 +110,11 @@ await driver.wait(
   15000
 );
 
-console.log('✅ App state reset & logged out successfully');
+console.log(' App state reset & logged out successfully');
 
 
   } catch (error) {
-    console.error('❌ TEST FAILED:', error);
+    console.error(' TEST FAILED:', error);
   } finally {
     await slow(3000);
     await driver.quit();
