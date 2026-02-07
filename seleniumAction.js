@@ -26,7 +26,7 @@ import assert from 'assert';
 
     assert.strictEqual(actualError, expectedError);
 
-    console.log('✅ Test Passed: Locked out user verified');
+    console.log(' Test Passed: Locked out user verified');
 
   } finally {
     await driver.quit();
