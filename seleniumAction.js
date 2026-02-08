@@ -34,4 +34,15 @@ import assert from 'assert';
 })();
 
 
+ // "scripts": {
+  //   "test": "mocha tests --timeout 60000",
+  //   "allure:report": "allure generate allure-results --clean -o allure-report",
+  //   "allure:open": "allure open allure-report"
+  // },
 
+
+// "scripts": {
+//     "test": "mocha tests --reporter allure-mocha",
+//     "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+//     "run:all": "npm test && npm run report"
+//   },
